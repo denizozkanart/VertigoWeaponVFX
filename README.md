@@ -4,7 +4,7 @@
 
 # \*\*Author:\*\* Deniz Özkan  
 
-# \*\*Engine:\*\* Unity 6 (6000.0.44f1) – DX11  
+# \*\*Unity Version:\*\* 6000.0.44f1 (Unity 6)  
 
 # \*\*Pipeline:\*\* URP  
 
@@ -14,21 +14,21 @@
 
 # 
 
-# \## 🎯 Task Overview
+# \## 🎯 Overview
 
-# This project implements the required VFX features for \*\*Vertigo Games – Task 2\*\*:
+# This project delivers the required \*\*Weapon VFX\*\* for Vertigo Task 2:
 
 # 
 
-# \- Custom \*\*flowing wind effect\*\* built using Shader Graph  
+# \- Flowing wind effect (Shader Graph)
 
-# \- Additional \*\*secondary VFX\*\* using Unity Particle System (sparks + soft smoke trails)  
+# \- Secondary particles (sparks + soft smoke)
 
-# \- No post-processing used in any video recordings  
+# \- Optimized meshes \& shaders
 
-# \- Optimized ribbon meshes for performance  
+# \- No post-processing
 
-# \- Clean and organized folder structure  
+# \- Clean project structure
 
 # 
 
@@ -36,15 +36,15 @@
 
 # 
 
-# \## 🌀 Flowing Wind Shader (Shader Graph)
+# \## 🌀 Wind Shader
 
-# \- Time-based UV scrolling  
+# \- UV scrolling animation  
 
-# \- Noise-driven distortion for fluidity  
+# \- Noise-based distortion  
 
 # \- Emissive gold glow  
 
-# \- Applied on lightweight ribbon meshes placed around the weapon  
+# \- Applied on custom ribbon meshes
 
 # 
 
@@ -52,15 +52,15 @@
 
 # 
 
-# \## ✨ Secondary VFX (Particles)
+# \## ✨ Particle Effects
 
-# \- Spark particles with soft fade  
+# \- Soft sparks  
 
-# \- Glow and dust particles using Noise module  
+# \- Light smoke / glow particles  
 
-# \- Lightweight textures (mobile-friendly)  
+# \- Noise-driven motion  
 
-# \- Designed to complement the wind effect without overwhelming the scene  
+# \- Mobile-friendly performance
 
 # 
 
@@ -68,15 +68,7 @@
 
 # 
 
-# \## 📸 Screenshots
-
-# 
-
-# \### Preview Image
-
-# Below is a still frame from the final weapon VFX:
-
-# 
+# \## 📸 Screenshot
 
 # !\[Preview](Screenshots/Preview01.png)
 
@@ -86,19 +78,11 @@
 
 # 
 
-# \## ▶️ VFX Preview Videos
+# \## 🎥 Preview Videos
 
-# 
+# \*\*Video 01:\*\* https://drive.google.com/file/d/1s0fbr2zvqmpTVPTc9WSbgACp1MuIGTyo/view  
 
-# \*\*Preview 01:\*\*  
-
-# https://drive.google.com/file/d/1s0fbr2zvqmpTVPTc9WSbgACp1MuIGTyo/view?usp=drive\_link  
-
-# 
-
-# \*\*Preview 02:\*\*  
-
-# https://drive.google.com/file/d/1vFf\_ZXtgsSIfzB\_9E5Nk-b4Il0Lzk0oU/view?usp=drive\_link  
+# \*\*Video 02:\*\* https://drive.google.com/file/d/1vFf\_ZXtgsSIfzB\_9E5Nk-b4Il0Lzk0oU/view  
 
 # 
 
@@ -106,7 +90,53 @@
 
 # 
 
-# \## 📁 Project Structure
+\## 📁 Project Structure
+Assets/
+===
+
+# Shaders/
+
+# Materials/
+
+# VFX/
+
+# Weapon/
+
+# Screenshots/
+
+# ProjectSettings/
+
+Packages/
+
+===
+
+# ---
+
+# 
+
+# \## ▶️ How to Run
+
+# 1\. Open project in \*\*Unity 6000.0.44f1\*\*  
+
+# 2\. Open scene: `Assets/Scenes/Task2\_WeaponVFX.unity`  
+
+# 3\. Press \*\*Play\*\* to preview
+
+# 
+
+# ---
+
+# 
+
+# \## 📝 Notes
+
+# \- No post-processing used  
+
+# \- All shaders and VFX are optimized and organized  
+
+# \- Ready for evaluation
+
+
 
 
 
