@@ -1,4 +1,4 @@
-## Vertigo Weapon VFX – Task 2
+## Weapon VFX
 
 **Unity:** 6000.0.44f1 (Unity 6)  
 **Pipeline:** URP  
